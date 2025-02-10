@@ -43,9 +43,12 @@ st.dataframe(filtered_df)
 # ================================
 
 
-df2 = pd.read_csv("data/sample_data.csv")
+df2 = pd.read_csv("basic-streamlit-app\data\penguins.csv")
 
 st.dataframe(df2)
+
+
+st.slider("Choose a maximum salary", )
 # Now, instead of creating a DataFrame manually, we load a CSV file
 # This teaches students how to work with external data in Streamlit
 # # Ensure the "data" folder exists with the CSV file
