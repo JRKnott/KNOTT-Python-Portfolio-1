@@ -12,7 +12,7 @@ st.image("https://th.bing.com/th/id/R.33f8b725431d7c57804002e07752ae51?rik=SBCcs
 
 #sample data frame
 # read and print
-df2 = pd.read_csv("data/sample_data.csv") 
+df2 = pd.read_csv("basic-streamlit-app/data/sample_data.csv") 
 st.dataframe(df2)
 
 
