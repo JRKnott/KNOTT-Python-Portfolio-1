@@ -1,31 +1,22 @@
 import streamlit as st
 import pandas as pd
 
-# ================================
-# Step 1: Displaying a Simple DataFrame in Streamlit
-# ================================
 
-st.subheader("Now, let's look at some data!")
 
-# Creating a simple DataFrame manually
-# This helps students understand how to display tabular data in Streamlit.
+st.subheader("Penguins Data Analysis")
+
+
 df = pd.DataFrame({
     'Name': ['Alice', 'Bob', 'Charlie', 'David'],
     'Age': [25, 30, 35, 40],
     'City': ['New York', 'Los Angeles', 'Chicago', 'Houston']
 })
 
-# Displaying the table in Streamlit
-# st.dataframe() makes it interactive (sortable, scrollable)
+
 st.write("Here's a simple table:")
 st.dataframe(df)
 
-# ================================
-# Step 2: Adding User Interaction with Widgets
-# ================================
 
-# Using a selectbox to allow users to filter data by city
-# Students learn how to use widgets in Streamlit for interactivity
 city = st. selectbox("select a city", df["City"].unique())
 
 
@@ -33,42 +24,38 @@ filtered_df = df[df["City"] == city]
 
 st.write(f"People in {city}:")
 st.dataframe(filtered_df)
-# Filtering the DataFrame based on user selection
- 
-# Display the filtered results
 
 
-# ================================
-# Step 3: Importing Data Using a Relative Path
-# ================================
 
 
-df2 = pd.read_csv("basic-streamlit-app\data\penguins.csv")
 
+
+
+
+
+
+
+
+
+st.image("https://th.bing.com/th/id/R.33f8b725431d7c57804002e07752ae51?rik=SBCcsL35Km10ew&riu=http%3a%2f%2f3.bp.blogspot.com%2f_W90V87w3sr8%2fTP3ROy7LZzI%2fAAAAAAAAAXg%2fiQVVRg4aHkg%2fs1600%2fcompanions_adelie_penguins.jpg&ehk=0mVBMed4EdmY9keoXm%2fFHQ%2fLj9Gqw5%2bQBMUtl6TBZPM%3d&risl=&pid=ImgRaw&r=0", caption="Penguins", use_column_width=True)
+
+#sample data frame
+
+df2 = pd.read_csv("data/sample_data.csv") 
 st.dataframe(df2)
 
+st.write("Columns in dataset:", df2.columns.tolist())
+st.slider("Choose a Penguin", )
 
-st.slider("Choose a maximum salary", )
-# Now, instead of creating a DataFrame manually, we load a CSV file
-# This teaches students how to work with external data in Streamlit
-# # Ensure the "data" folder exists with the CSV file
-# Display the imported dataset
+species = st.selectbox("Select a species", df2["species"].unique())
 
+filtered_df = df2[df2["species"] == species]
 
-# Using a selectbox to allow users to filter data by city
-# Students learn how to use widgets in Streamlit for interactivity
+st.write(f"People in {species}:")
+st.dataframe(filtered_df)
 
+mass = st.slider("Choose a Maximum Weight",  min_value = df2["body_mass_g"].min(),max_value = df2["body_mass_g"].max())
 
-# Filtering the DataFrame based on user selection
+st.write(f"penguins under {mass} pounds:")
+st.dataframe(df2[df2["body_mass_g"]<= mass])
 
-
-
-
-# Display the filtered results
-
-# ================================
-# Summary of Learning Progression:
-# 1️⃣ Displaying a basic DataFrame in Streamlit.
-# 2️⃣ Adding user interaction with selectbox widgets.
-# 3️⃣ Importing real-world datasets using a relative path.
-# ================================
