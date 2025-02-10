@@ -31,6 +31,6 @@ st.dataframe(filtered_df)
 # slider by mass
 mass = st.slider("Choose a Maximum Weight",  min_value = df2["body_mass_g"].min(),max_value = df2["body_mass_g"].max())
 
-st.write(f"penguins under {mass} pounds:")
+st.write(f"penguins under {mass} grams:")
 st.dataframe(df2[df2["body_mass_g"]<= mass])
 
