@@ -13,6 +13,8 @@
   ![image](https://github.com/user-attachments/assets/20971150-8af4-4fdf-b260-3c9bd8af0115)  
 *Top Grossing X-Men Characters: A treemap visualization showcasing the most profitable characters in the comic reselling market.*
   * This project cleans an X-men Comic reselling dataset using methods from the Pandas library, and visualizes the information from this dataset using resources from other libraries.
+  * The knowledge I have learned through this project will allow me to effectively prepare data visualizations and make interpretations and gain insights of data in the future. I now have a lot more ways to manipulate and use data than what I could in my past Computing I EDA Final Project.
+  * Here is a link to the Project: https://github.com/JRKnott/KNOTT-Python-Portfolio-1/blob/main/TidyData-Project/Tidy-Data.ipynb
 
 
 
