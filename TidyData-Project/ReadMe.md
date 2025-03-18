@@ -1,4 +1,4 @@
-### Tidy-Data Project
+# Tidy-Data Project
 
 ## Project Overview: 
 
