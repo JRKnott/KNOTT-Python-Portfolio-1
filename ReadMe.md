@@ -12,7 +12,7 @@
 
 ## Tidy-Data Project
   ![image](https://github.com/user-attachments/assets/20971150-8af4-4fdf-b260-3c9bd8af0115)  
-*Top Grossing X-Men Characters: A treemap visualization showcasing the most profitable characters in the comic reselling market.*
+*Top Grossing X-Men Characters: A horizontal bar chart visualization showcasing the most profitable characters in the comic reselling market.*
   * This project cleans an X-men Comic reselling dataset using methods from the Pandas library, and visualizes the information from this dataset using resources from other libraries.
   * The knowledge I have learned through this project will allow me to effectively prepare data visualizations and make interpretations and gain insights of data in the future. I now have a lot more ways to manipulate and use data than what I could in my past Computing I EDA Final Project.
   * This will serve as a good starting point for any future data analysis projects and portfolio updates.
