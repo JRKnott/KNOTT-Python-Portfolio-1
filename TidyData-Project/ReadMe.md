@@ -21,14 +21,16 @@ The dataset I am using is X-Men Mutant Moneyball. It has data that showcases the
 
 I used various methods from [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf), and followed the general principles from [Tidy Data Principles](https://vita.had.co.nz/papers/tidy-data.pdf) in order to organize the data to be best utilized in varying visualizations.
 
-## Below are some examples of visualizations from this project:
+## Visualizations from this Project:
 
-![image](https://github.com/user-attachments/assets/e0a824df-6af2-44a8-8fb1-eb6eabb3c8fb)
+![image](https://github.com/user-attachments/assets/e0a824df-6af2-44a8-8fb1-eb6eabb3c8fb)  
+*Character Popularity Distribution: Histogram showing the number of comic appearances per character.*
 
-![image](https://github.com/user-attachments/assets/ec0fab88-9c27-4a63-a8c9-6fa087ab10aa)
+![image](https://github.com/user-attachments/assets/ec0fab88-9c27-4a63-a8c9-6fa087ab10aa)  
+*Profitability by Decade & Platform: Stacked bar chart comparing resale values across different decades and platforms (eBay, Heritage, etc.).*
 
-![image](https://github.com/user-attachments/assets/20971150-8af4-4fdf-b260-3c9bd8af0115)
-
+![image](https://github.com/user-attachments/assets/20971150-8af4-4fdf-b260-3c9bd8af0115)  
+*Top Grossing X-Men Characters: A treemap visualization showcasing the most profitable characters in the comic reselling market.*
 
 
 
