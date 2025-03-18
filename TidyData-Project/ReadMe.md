@@ -1,45 +1,98 @@
-### Tidy-Data Project
+Tidy-Data Project: X-Men Mutant Moneyball
+📌 Project Overview
+This project focuses on cleaning and analyzing an X-Men comic reselling dataset using Python’s Pandas library. The goal is to structure the data using tidy-data principles and visualize key insights with Matplotlib and Seaborn.
 
-## Project Overview: 
+By organizing and processing this dataset, we can explore trends related to character popularity and profitability in the comic reselling market.
 
-The goal of this project is to clean an X-men Comic reselling dataset using methods from the Pandas library, and visualize the information from this dataset using resources from other libraries. 
+📚 Dependencies
+Make sure you have the following Python libraries installed before running the project:
 
-# Dependencies/Libraries:
-  1. Pandas
-  2. Seaborn
-  3. MatPlotLib
+Pandas → Data cleaning and manipulation
+Matplotlib → Data visualization
+Seaborn → Enhanced and aesthetically pleasing plots
+Install them using:
+
+bash
+Copy
+Edit
+pip install pandas matplotlib seaborn
+🛠 Setup & Instructions
+Clone this repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/tidy-data-mutant-moneyball.git
+cd tidy-data-mutant-moneyball
+Ensure the dataset (mutant_moneyball.csv) is stored in the same directory as the script.
+
+Run the Python script in your preferred environment (VS Code, Jupyter Notebook, Google Colab):
+
+bash
+Copy
+Edit
+python mutant_moneyball_analysis.py
+Follow the Markdown comments in the code file for explanations of each step.
+
+📊 Dataset Source: X-Men Mutant Moneyball
+This dataset, X-Men Mutant Moneyball, contains information on:
+
+Comic appearances of various X-Men characters (by their in-universe names).
+Resale performance of their comics on platforms like:
+🏛 Heritage Auctions
+🛒 eBay
+📰 Wizard World
+Project Goals
+Identify the most profitable X-Men characters based on resale values.
+Analyze character popularity by the number of comic appearances.
+Compare profitability across different platforms and decades.
+For a similar dataset visualization, check out: ObservableHQ – Mutant Moneyball.
+
+This project applies key concepts from:
+
+📝 Pandas Cheat Sheet
+📖 Tidy Data Principles
+📈 Example Visualizations
+🔹 1. Character Popularity Distribution
+📊 Histogram showing the number of comic appearances per character
 
 
-# Instructions: 
 
-1. Download the Main file and dataset into the same folder
-2. Run using a python environment on VScode or Google Colab
-3. Follow the markdown steps in the code file.
-
-# Source of Data : X-Men Mutant Moneyball
-
-The dataset I am using is X-Men Mutant Moneyball. It has data that showcases the amount of appearances in comics by X-Men Characters by their in universe names, aswell as the performance on sites such as Ebay and Heritage. Using this data, one can illustrate the profitability of certain characters, aswell as their general popularity. A better example of this data being visualized is in https://observablehq.com/@deepalikank/mutant-moneyball. 
-
-I used various methods from https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf, and followed the general principles from https://vita.had.co.nz/papers/tidy-data.pdf in order to organize the data to be best utilized in varying visualizations.
-
-Below are some examples of visualizations from this project.
-
-
-![image](https://github.com/user-attachments/assets/e0a824df-6af2-44a8-8fb1-eb6eabb3c8fb)
-
-![image](https://github.com/user-attachments/assets/ec0fab88-9c27-4a63-a8c9-6fa087ab10aa)
-
-![image](https://github.com/user-attachments/assets/20971150-8af4-4fdf-b260-3c9bd8af0115)
+🔹 2. Profitability by Decade & Platform
+📉 Stacked bar chart comparing resale values across different decades & platforms
 
 
 
+🔹 3. Top Grossing X-Men Characters
+🗂 Treemap showing the most profitable characters in the resale market
 
 
 
-5. Create a README for the Tidy Data Project Repository
-Content Suggestions:
-Project Overview: Describe the goal of your project and provide a brief explanation of tidy data principles.
-Instructions: Include step-by-step instructions on how to run the notebook, along with dependencies (e.g., pandas, matplotlib, etc.).
-Dataset Description: Outline the source of your data and any pre-processing steps.
-References: Provide links to the cheat sheet and tidy data paper for further reading.
-Visual Examples: Consider adding screenshots of your visualizations or code snippets.
+🤝 Contributing
+Contributions are welcome! If you’d like to improve the analysis or add more visualizations, follow these steps:
+
+Fork the repository
+Create a feature branch
+bash
+Copy
+Edit
+git checkout -b feature-new-visualization
+Make your changes and commit
+bash
+Copy
+Edit
+git commit -m "Added new visualization for character rankings"
+Push your branch and create a Pull Request
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+✨ Acknowledgments
+Special thanks to:
+
+ObservableHQ for dataset inspiration
+The Pandas and Matplotlib teams for their powerful libraries
+Hadley Wickham’s Tidy Data for data structuring principles
+
+
+
+
