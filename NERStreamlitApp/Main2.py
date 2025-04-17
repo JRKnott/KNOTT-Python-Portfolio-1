@@ -1,4 +1,4 @@
-o# imports the necessary libraries
+# imports the necessary libraries
 import streamlit as st
 import spacy
 from spacy import displacy
