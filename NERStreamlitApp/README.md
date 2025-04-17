@@ -42,7 +42,8 @@
 
     The phrase "horrible vermin" will then be highlighted and labeled Bug.
     *Visualization:
-    ![image](https://github.com/user-attachments/assets/a8875d34-7da2-4352-b242-6e137eedcada)
+   
+![image](https://github.com/user-attachments/assets/a8875d34-7da2-4352-b242-6e137eedcada)
 
     App Features
 
