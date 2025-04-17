@@ -36,14 +36,17 @@
 4. Session Persistance
     Allows sessions to persist, and user to maintain inputs even after closing out or reloading.
 
-    ### Example Usage:
+## Example Usage:
 
     Custom Pattern: Label = Bug, Pattern = vermin.
 
     The phrase "horrible vermin" will then be highlighted and labeled Bug.
+   
 Visualization:
    
 ![image](https://github.com/user-attachments/assets/a8875d34-7da2-4352-b242-6e137eedcada)
+
+*Showcases custom patterns in labels in action
 
 ## My References
 spaCy Documentation: https://spacy.io/usage
