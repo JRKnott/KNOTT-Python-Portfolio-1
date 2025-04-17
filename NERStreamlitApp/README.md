@@ -13,8 +13,8 @@
    * Read the text with labeled entities and visualized using displaCy
 
 ## Prerequisites
-    * Python 3.7+
-    * Anaconda or other suitable Python Environment
+   * Python 3.7+
+   * Anaconda or other suitable Python Environment
 ## Libraries and Dependencies:
   1. Pandas
   2. Streamlit
