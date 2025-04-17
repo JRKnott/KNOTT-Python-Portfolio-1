@@ -2,15 +2,12 @@
 
 ## Project Overview
  My NER App is built with Streamlit for an interactive web interface and Spacy for fast NER.
- 
+ ![image](https://github.com/user-attachments/assets/4151f175-a52c-430c-97b2-7c1b37374e90)
+ * example visualization
+   
  Using my app one can:
-   *  Upload or input plain text
-
-   *  Analyze text using Spacy’s built‑in entity detection (e.g., PERSON, ORG, GPE, TIME)
-
-   * Define and apply custom entity patterns using spaCy’s EntityRuler
-
-   * Read the text with labeled entities and visualized using displaCy
+   Upload or input plain text, analyze text using Spacy’s built‑in entity detection (e.g., PERSON, ORG, GPE, TIME), define and apply custom entity patterns using spaCy’s EntityRuler and read the text with labeled entities and visualized using displaCy.
+   NER allows me to structure text, identifying and organizing entities in unstructured text. Organizing text in this manner is important, as according to GeeksforGeeks, "By tagging these entities, we can transform raw text into structured data that can be analyzed, indexed or used in applications". This means it is very useful in Machine Learning, Natural Language Processing applications regarding text. I hope to use the knowledge gained from this project to make a project that uses NLP and NER to gain some cool insights.
 
 ## Prerequisites
    * Python 3.7+
@@ -52,6 +49,8 @@ spaCy Documentation: https://spacy.io/usage
 EntityRuler Guide: https://spacy.io/usage/rule-based-matching
 
 displaCy Visualization: https://spacy.io/usage/visualizers
+
+NER using Spacy: https://www.geeksforgeeks.org/python-named-entity-recognition-ner-using-spacy/
 
 These helped me gain a grasp on how to create entity rulers. I also got help from Stack Overflow, GeeksforGeeks, and asking classmates for advice.
 
