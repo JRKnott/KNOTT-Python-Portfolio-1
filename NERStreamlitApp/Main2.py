@@ -17,7 +17,7 @@ st.header("Please Input your Text")
 if 'label_colors' not in st.session_state:
     st.session_state.label_colors = {}
 
-# this saves custom 
+# this saves custom patterns
 if 'custom_patterns' not in st.session_state:
     st.session_state.custom_patterns = []
 
