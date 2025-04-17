@@ -92,9 +92,8 @@ if st.session_state.custom_patterns:
         st.write(f"{i}. Label: {pat['label']}, Pattern: {pat['pattern']}")
 else:
     st.write('No custom patterns added yet.')
-
+#clears buttons, clears the nlp pipeline
 if st.button('Clear Patterns'):  
-            # singular 'button'
     st.session_state.custom_patterns = []
     if 'entity_ruler' in nlp.pipe_names:
         nlp.remove_pipe('entity_ruler')
