@@ -13,8 +13,8 @@
    * Read the text with labeled entities and visualized using displaCy
 
 ## Prerequisites
-    Python 3.7+
-    Anaconda or other suitable Python Environment
+    * Python 3.7+
+    * Anaconda or other suitable Python Environment
 ## Libraries and Dependencies:
   1. Pandas
   2. Streamlit
@@ -61,6 +61,11 @@ These helped me gain a grasp on how to create entity rulers. I also got help fro
 
  
 *Showcase of what a stanard NER outputs, with labels for each standard patterns, such as Date*
+
+![image](https://github.com/user-attachments/assets/163538eb-0801-463b-8bee-74fce1384b1a)
+
+*Image of NER with custom pattern labels. Note that it is case sensitive. This is something I want to work on to improve in future.
+
 
 
 
