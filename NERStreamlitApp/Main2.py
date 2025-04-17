@@ -1,4 +1,4 @@
-# imports the necessary libraries
+o# imports the necessary libraries
 import streamlit as st
 import spacy
 from spacy import displacy
@@ -10,7 +10,7 @@ st.title('My NER Application')
 st.header("Please Input your Text")
 
 
-# These help ensure that user inputs stay when the website is reloaded
+# These below help ensure that user inputs stay when the website is reloaded
 # st.session_state helps keep data in place even when buttons are clicked and things are reloaded
 
 #this saves label colors
@@ -38,7 +38,7 @@ if user_file is not None:
 st.text_area(
     "Enter text to analyze:",
     key="user_text",   
-    height=150
+    height=200
 )
 # sets up the spacy Entity Ruler and Spacy Pipeline
 if 'entity_ruler' in nlp.pipe_names:
