@@ -49,7 +49,7 @@ ruler.add_patterns(st.session_state.custom_patterns)
 #This reapplies the stored custom patterns from earlier.
 for pat in st.session_state.custom_patterns:
     if pat['label'] not in st.session_state.label_colors:
-        st.session_state.label_colors[pat['label']] = "#aa8cfc"
+        st.session_state.label_colors[pat['label']] = "#f0e5dc"
 
 # # processes text with nlp
 doc = nlp(st.session_state.user_text)
