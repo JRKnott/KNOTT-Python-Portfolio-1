@@ -38,9 +38,9 @@
 
 ## Example Usage:
 
-    Custom Pattern: Label = Bug, Pattern = vermin.
+Custom Pattern: Label = Bug, Pattern = vermin.
 
-    The phrase "horrible vermin" will then be highlighted and labeled Bug.
+The phrase "horrible vermin" will then be highlighted and labeled Bug.
    
 Visualization:
    
