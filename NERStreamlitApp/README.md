@@ -57,9 +57,10 @@ These helped me gain a grasp on how to create entity rulers. I also got help fro
 
 
 ## Visualizations from this Project:
+![image](https://github.com/user-attachments/assets/27107114-86e9-49d1-b712-9370de956765)
 
-![image](https://github.com/user-attachments/assets/e0a824df-6af2-44a8-8fb1-eb6eabb3c8fb)  
-*Character Popularity Distribution: Histogram showing the number of comic appearances per character.*
+ 
+*Showcase of what a stanard NER outputs, with labels for each standard patterns, such as Date*
 
 
 
