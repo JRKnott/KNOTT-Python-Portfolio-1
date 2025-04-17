@@ -7,7 +7,7 @@ from spacy import displacy
 nlp = spacy.load('en_core_web_sm')
 # title and header
 st.title('My NER Application')
-st.header("Please Input your Text")
+st.subheader("Please Input your Text")
 
 
 # These below help ensure that user inputs stay when the website is reloaded
@@ -68,7 +68,7 @@ html = displacy.render(doc, style="ent", options=options)
 st.markdown(html, unsafe_allow_html=True)
 
 #creates custom labels and patterns
-st.header('Define Custom Entity Patterns')
+st.subheader('Define Custom Entity Patterns')
 custom_label = st.text_input('Entity Label', placeholder='e.g., Person')
 custom_pattern = st.text_input('Entity pattern (text)', placeholder='e.g., George Washington')
 
