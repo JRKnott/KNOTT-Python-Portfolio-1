@@ -41,11 +41,9 @@
     Custom Pattern: Label = Bug, Pattern = vermin.
 
     The phrase "horrible vermin" will then be highlighted and labeled Bug.
-    *Visualization:
+Visualization:
    
 ![image](https://github.com/user-attachments/assets/a8875d34-7da2-4352-b242-6e137eedcada)
-
-    App Features
 
 ## My References
 spaCy Documentation: https://spacy.io/usage
