@@ -36,7 +36,7 @@ if user_file is not None:
     st.success("File Uploaded")
 # creates an area for text that can be edited
 st.text_area(
-    "Enter text to analyze:",
+    "Enter text:",
     key="user_text",   
     height=200
 )
