@@ -7,8 +7,8 @@
   *Example visualization from APP
    
  Using my app one can:
-   Upload or input plain text, analyze text using Spacy’s built‑in entity detection (e.g., PERSON, ORG, GPE, TIME), define and apply custom entity patterns using spaCy’s EntityRuler and read the text with labeled entities and visualized using displaCy.
-   NER allows me to structure text, identifying and organizing entities in unstructured text. Organizing text in this manner is important, as according to GeeksforGeeks, "By tagging these entities, we can transform raw text into structured data that can be analyzed, indexed or used in applications". This means it is very useful in Machine Learning, Natural Language Processing applications regarding text. I hope to use the knowledge gained from this project to make a project that uses NLP and NER to gain some cool insights.
+*  Upload or input plain text, analyze text using Spacy’s built‑in entity detection (e.g., PERSON, ORG, GPE, TIME), define and apply custom entity patterns using spaCy’s EntityRuler and read the text with labeled entities and visualized using displaCy.
+*   NER allows me to structure text, identifying and organizing entities in unstructured text. Organizing text in this manner is important, as according to GeeksforGeeks, "By tagging these entities, we can transform raw text into structured data that can be analyzed, indexed or used in applications". This means it is very useful in Machine Learning, Natural Language Processing applications regarding text. I hope to use the knowledge gained from this project to make a project that uses NLP and NER to gain some cool insights.
 
 ## Prerequisites
    * Python 3.7+
@@ -43,7 +43,8 @@ Custom Pattern: Label = Bug, Pattern = vermin.
 The phrase "horrible vermin" will then be highlighted and labeled Bug.
    
 Visualization:
-   
+
+
 ![image](https://github.com/user-attachments/assets/a8875d34-7da2-4352-b242-6e137eedcada)
 
 *Showcases custom patterns in labels in action
