@@ -2,8 +2,9 @@
 
 ## Project Overview
  My NER App is built with Streamlit for an interactive web interface and Spacy for fast NER.
+ 
  ![image](https://github.com/user-attachments/assets/4151f175-a52c-430c-97b2-7c1b37374e90)
- * example visualization
+  *Example visualization from APP
    
  Using my app one can:
    Upload or input plain text, analyze text using Spacy’s built‑in entity detection (e.g., PERSON, ORG, GPE, TIME), define and apply custom entity patterns using spaCy’s EntityRuler and read the text with labeled entities and visualized using displaCy.
@@ -37,9 +38,11 @@
 
     ### Example Usage:
 
-    Custom Pattern: Label = Bug, Pattern = horrible vermin
+    Custom Pattern: Label = Bug, Pattern = vermin.
 
     The phrase "horrible vermin" will then be highlighted and labeled Bug.
+    *Visualization:
+    ![image](https://github.com/user-attachments/assets/a8875d34-7da2-4352-b242-6e137eedcada)
 
     App Features
 
