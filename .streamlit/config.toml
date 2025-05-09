@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#2E7D32"                # darker forest green for highlights/buttons
+backgroundColor = "#C5D7C5"             # medium light grey-green for background
+secondaryBackgroundColor = "#A9C0A9"    # deeper grey-green for widgets/containers
+textColor = "#1B2B1B"                   # very dark greenish-grey for text
+font = "sans serif"
