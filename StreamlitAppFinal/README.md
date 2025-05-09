@@ -126,7 +126,8 @@ Select on the right-hand side which pages you want to visit.
 
 ## Vader vs. Finbert
 
-![Screenshot](C:/Users/john/OneDrive%20-%20nd.edu/Pictures/Screenshots/Screenshot%202025-05-08%20214529.png)
+![Screenshot 2025-05-08 214529](https://github.com/user-attachments/assets/a0661753-d602-4605-8575-d7cf246dc3ed)
+
 
 *This was a fun comparison between the two sentiment analyzers. Due to YFinance limits, this is the only part of the code currently confirmed working. Apologies – John*
 
@@ -148,7 +149,11 @@ Overall Sentiment (Compound): 0.7854
 Overall Sentiment: Positive
 ```
 
-![Screenshot](C:/Users/john/OneDrive%20-%20nd.edu/Pictures/Screenshots/Screenshot%202025-05-08%20221553.png)
+![Screenshot 2025-05-08 221553](https://github.com/user-attachments/assets/0b805141-55a5-41a3-bb59-ad3b82681e5b)
+
+* This shows the sentiment of each word in the uploaded text.
+
+
 
 **Takeaway:** Although FinBERT is more nuanced, VADER is faster and has unique advantages like flexible compound scores.
 
