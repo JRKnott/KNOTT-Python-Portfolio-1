@@ -1,7 +1,7 @@
 
 ---
 
-# Effect of Reddit Sentiment on Individual Stocks
+# Streamlit App Final
 
 ## Project Overview
 
