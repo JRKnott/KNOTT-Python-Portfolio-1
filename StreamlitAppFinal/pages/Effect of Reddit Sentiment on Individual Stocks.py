@@ -25,7 +25,8 @@ def hash_post_titles(posts):
 def load_finbert_pipeline():
     return pipeline("sentiment-analysis", model="ProsusAI/finbert", top_k=None, device=-1)
 
-sentiment_pipeline = load_finbert_pipeline()
+
+sentiment_pipeline = pipeline("sentiment-analysis", model="ProsusAI/finbert", top_k=None, framework="pt", device=-1)
 
 #Keyword Mapping 
 ticker_mapping = {
