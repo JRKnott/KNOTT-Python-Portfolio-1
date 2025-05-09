@@ -1,7 +1,7 @@
 
 # Semester Project - John Knott
 
-   * Currently working on creating a portfolio of interesting applications using python that will expand my knowledge of the language and front end application software. This Portfolio will showcase my knowledge and skills related to Python and data analysis. I hope to continue to hone my skills after this semester, and expand upon these projects in the future.
+   * This semester I worked on creating a portfolio of interesting applications using python that will expand my knowledge of the language and front end application software. This Portfolio will showcase my knowledge and skills related to Python and data analysis. I hope to continue to hone my skills after this semester, and expand upon these projects in the future.
    * These projects and apps, have helped further my understanding of different aspects of Data Analysis, Data Cleaning, Visualization, and Website Design.
 
 # At a Glance:
@@ -25,6 +25,9 @@
   * This Project was a cool way to utilize what I have learned over the semester. I was able to utilize NER, a little bit of data-cleaning, aswell as the ton of useful streamlit skills I learned over the course of the semester.
   * I have a lot of interesting take aways from the analysis that I have done. For example, when looking at Tesla reddit sentiment in comparison to stock price closes, I was able to see an almost entirely negative correlation between prices and sentiment. I believe this indicates, that because of TSLA's meme stock status, hedgefunds and other investment firms, are able to outcompete retail investors, by trickign and even manipulating the market to beat these consumers. I think this is a great way of showing how Hedge funds might have reacted to past memestocks such as GameStop, and are now able to outsmart consumers.
   * Here is a link to the project: https://github.com/JRKnott/KNOTT-Python-Portfolio-1/tree/main/StreamlitAppFinal
+ 
+
+### Note: Because of YFinance Rate Limits, my tangible results of this code at the current moment are unknown. I can't currently troubleshoot my code, or screenshot current parts of it, but it has worked in the last couple of days (5/8/2025) - John
 
 
 ## NER Application
