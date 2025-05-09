@@ -18,8 +18,7 @@
     3. Vader vs. Finbert : This allows the user to see the difference in how Vader and Finbert (two sentiment analyzers) in how they process text. Also showcases an indepth token by token analysis of Vader analysis (Shown Below:)
 
 ![Screenshot 2025-05-03 183011](https://github.com/user-attachments/assets/42238f2b-5508-4ea4-98f9-f30272600bfb)
-
-    * Note: I wanted to edit this visualization to be cleaner, but YFinance rate limits have limited my ability to make changes.
+* Note: I wanted to edit this visualization to be cleaner, but YFinance rate limits have limited my ability to make changes.
 
 
   * This App was designed around improving interactivity and showing interesting and unique correlations between sentiment data and stock prices. 
