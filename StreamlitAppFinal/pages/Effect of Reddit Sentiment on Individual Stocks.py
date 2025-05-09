@@ -46,9 +46,9 @@ ticker_mapping = {
 @st.cache_data
 def get_reddit_posts(ticker, subreddit, days_back=30, max_posts=100):
     reddit = praw.Reddit(
-            CLIENT_ID = st.secrets["reddit"]["client_id"]
-            CLIENT_SECRET = st.secrets["reddit"]["client_secret"]
-            USER_AGENT = st.secrets["reddit"]["user_agent"]
+            client_id = st.secrets["reddit"]["CLIENT_ID"],
+            client_secret = st.secrets["reddit"]["CLIENT_SECRET"],
+            user_agent = st.secrets["reddit"]["USER_AGENT"]
     )
 
     end_time = datetime.utcnow()
