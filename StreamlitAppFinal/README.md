@@ -73,7 +73,7 @@ streamlit run "FinalProj/pages/Homepage.py"
 
 ---
 
-# 🧩 App Features
+# App Features
 
 ## Homepage
 
@@ -83,7 +83,7 @@ Select on the right-hand side which pages you want to visit.
 
 ## Effect of Reddit Sentiment on Individual Stocks
 
-**⚠️ Warning:** YFinance may not work if rate limit is reached.
+**⚠Warning:** YFinance may not work if rate limit is reached.
 ![Screenshot 2025-05-03 183011](https://github.com/user-attachments/assets/50ab2e1b-049d-48a2-9e8f-4ad09a5bb984)
 * **Stock Selector:** Choose a stock (e.g., TSLA, AAPL) to analyze.
 * **Date Range Picker:** Set custom time windows to compare sentiment and price movement.
@@ -103,7 +103,7 @@ Select on the right-hand side which pages you want to visit.
 
 ## Sentiment Analysis – VADER (Adjusted to FinBERT) and S\&P 500 Trends
 
-**⚠️ Warning:** May take hours to run. (FinBERT is time-intensive)
+**⚠Warning:** May take hours to run. (FinBERT is time-intensive)
 
 *I also have a version that uses VADER. I will attach in a separate document – John.*
 
