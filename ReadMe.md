@@ -1,6 +1,8 @@
 
 # Semester Project - John Knott
-   * Currently working on creating a portfolio of interesting applications using python that will expand my knowledge of the language and front end application software. This Portfolio will showcase my knowledge and skills related to Python and data analysis.
+
+   * Currently working on creating a portfolio of interesting applications using python that will expand my knowledge of the language and front end application software. This Portfolio will showcase my knowledge and skills related to Python and data analysis. I hope to continue to hone my skills after this semester, and expand upon these projects in the future.
+   * These projects and apps, have helped further my understanding of different aspects of Data Analysis, Data Cleaning, Visualization, and Website Design.
 
 # At a Glance:
 
@@ -16,6 +18,7 @@
     3. Vader vs. Finbert : This allows the user to see the difference in how Vader and Finbert (two sentiment analyzers) in how they process text. Also showcases an indepth token by token analysis of Vader analysis (Shown Below:)
 
 ![Screenshot 2025-05-03 183011](https://github.com/user-attachments/assets/42238f2b-5508-4ea4-98f9-f30272600bfb)
+
 * Note: I wanted to edit this visualization to be cleaner, but YFinance rate limits have limited my ability to make changes.
 
 
