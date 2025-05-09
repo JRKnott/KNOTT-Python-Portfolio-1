@@ -14,6 +14,8 @@ This Streamlit app explores how sentiment compiled from Reddit, and DJIA News (D
 
 The goal is to uncover potential relationships between social media sentiment and market behavior, especially during volatile periods or hype-driven rallies.
 
+Link: https://knott-python-portfolio-1-a6wrrieetrtyzckqsgqjgy.streamlit.app/
+
 
 ---
 
