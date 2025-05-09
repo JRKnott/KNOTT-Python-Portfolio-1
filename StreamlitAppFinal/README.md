@@ -7,7 +7,9 @@
 
 This Streamlit app explores how sentiment compiled from Reddit, and DJIA News (Dow Jones Industrial Average) influences individual stock performance, particularly high-profile stocks like Tesla (TSLA) and Apple (AAPL). The app uses FinBERT—a financial sentiment analysis model—to evaluate Reddit post sentiment and compares it with historical stock trends from Yahoo Finance.
 
-![Screenshot 2025-05-08 222211](https://github.com/user-attachments/assets/8619ffac-f78c-4980-8496-5666d5bdf7e3)
+
+![Screenshot 2025-05-08 222211](https://github.com/user-attachments/assets/a4de4fc0-50c5-4dad-9c63-5e02e73802dd)
+
 
 
 The goal is to uncover potential relationships between social media sentiment and market behavior, especially during volatile periods or hype-driven rallies.
