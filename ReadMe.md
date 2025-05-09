@@ -4,7 +4,7 @@
    * This semester I worked on creating a portfolio of interesting applications using python that will expand my knowledge of the language and front end application software. This Portfolio will showcase my knowledge and skills related to Python and data analysis. I hope to continue to hone my skills after this semester, and expand upon these projects in the future.
    * These projects and apps, have helped further my understanding of different aspects of Data Analysis, Data Cleaning, Visualization, and Website Design.
 
-# At a Glance:
+# Semester at a Glance:
 
 ## Stock Market Effects of Sentiment - An Analysis
 
