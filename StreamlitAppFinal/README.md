@@ -14,6 +14,7 @@ This Streamlit app explores how sentiment compiled from Reddit, and DJIA News (D
 
 The goal is to uncover potential relationships between social media sentiment and market behavior, especially during volatile periods or hype-driven rallies.
 
+
 ---
 
 ## Setup & Run Instructions
@@ -83,7 +84,7 @@ Select on the right-hand side which pages you want to visit.
 ## Effect of Reddit Sentiment on Individual Stocks
 
 **⚠️ Warning:** YFinance may not work if rate limit is reached.
-
+![Screenshot 2025-05-03 183011](https://github.com/user-attachments/assets/50ab2e1b-049d-48a2-9e8f-4ad09a5bb984)
 * **Stock Selector:** Choose a stock (e.g., TSLA, AAPL) to analyze.
 * **Date Range Picker:** Set custom time windows to compare sentiment and price movement.
 
@@ -113,7 +114,7 @@ Select on the right-hand side which pages you want to visit.
 
 **First Visualization:** Shows the daily averaged sentiment overlaid with the closing price of the S\&P 500.
 
-![Screenshot](C:/Users/john/OneDrive%20-%20nd.edu/Pictures/Screenshots/Screenshot%202025-05-03%20231154.png)
+
 
 *I wanted to make this visualization easier to see, but YF rate limit made troubleshooting impossible. – John*
 
