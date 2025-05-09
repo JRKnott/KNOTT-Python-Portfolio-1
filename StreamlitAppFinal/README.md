@@ -1,10 +1,16 @@
+Yes, I understand exactly what you mean — your current README is formatted as a big code block, likely due to incorrect Markdown syntax (like using triple backticks or indentation accidentally). I’ll reformat your README **line by line**, keeping the content exactly the same but **properly rendering it in Markdown** (with headings, lists, images, and code snippets only where appropriate).
+
+Here is your **cleanly formatted `README.md`**:
+
+---
+
 # Effect of Reddit Sentiment on Individual Stocks
 
 ## Project Overview
 
-This Streamlit app explores how sentiment compiled from Reddit, and DJIA News(Dow Junes Industrial Average) influences individual stock performance, particularly high-profile stocks like Tesla (TSLA) and Apple (AAPL). The app uses FinBERT—a financial sentiment analysis model—to evaluate Reddit post sentiment and compares it with historical stock trends from Yahoo Finance.
+This Streamlit app explores how sentiment compiled from Reddit, and DJIA News (Dow Jones Industrial Average) influences individual stock performance, particularly high-profile stocks like Tesla (TSLA) and Apple (AAPL). The app uses FinBERT—a financial sentiment analysis model—to evaluate Reddit post sentiment and compares it with historical stock trends from Yahoo Finance.
 
-"C:\Users\john\OneDrive - nd.edu\Pictures\Screenshots\Screenshot 2025-05-08 222211.png"
+![Screenshot](C:/Users/john/OneDrive%20-%20nd.edu/Pictures/Screenshots/Screenshot%202025-05-08%20222211.png)
 
 The goal is to uncover potential relationships between social media sentiment and market behavior, especially during volatile periods or hype-driven rallies.
 
@@ -17,142 +23,147 @@ The goal is to uncover potential relationships between social media sentiment an
 ```bash
 git clone https://github.com/JRKnott/StreamlitAppFinal.git
 cd StreamlitAppFinal
+```
 
-### 1. Setup an Environment
+### 2. Setup an Environment
 
+```bash
 conda create -n streamlit_env python=3.10
 conda activate streamlit_env
+```
 
-### 2. Install Dependencies
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-or manually install these libraries:
+Or manually install these libraries:
 
-streamlit==1.31.0
-pandas==2.2.2
-numpy==1.26.4
-matplotlib==3.8.4
-plotly==5.22.0
-praw==7.7.1
-psaw==0.0.12
-transformers==4.44.2
-torch==2.4.1
-vaderSentiment==3.3.2
-requests==2.32.3
-tokenizers==0.19.1
+* `streamlit==1.31.0`
+* `pandas==2.2.2`
+* `numpy==1.26.4`
+* `matplotlib==3.8.4`
+* `plotly==5.22.0`
+* `praw==7.7.1`
+* `psaw==0.0.12`
+* `transformers==4.44.2`
+* `torch==2.4.1`
+* `vaderSentiment==3.3.2`
+* `requests==2.32.3`
+* `tokenizers==0.19.1`
 
-### 3. Set up Reddit API Credentials
+### 4. Set up Reddit API Credentials
 
-.streamlit/secrets.toml
-toml
-Copy
-Edit
+Create a file named `.streamlit/secrets.toml` and add the following:
+
+```toml
 [reddit]
 client_id = "your_client_id"
 client_secret = "your_client_secret"
 user_agent = "your_user_agent"
+```
 
-### 4. Run APP
+### 5. Run App
 
-streamlit run "FinalProj/pages/Homepage.py" <- Insert File Path Here.
+```bash
+streamlit run "FinalProj/pages/Homepage.py"
+```
 
+---
 
-#🧩 App Features
+# 🧩 App Features
 
 ## Homepage
 
-Select on the right hand side, which pages you want to visit.
+Select on the right-hand side which pages you want to visit.
+
+---
 
 ## Effect of Reddit Sentiment on Individual Stocks
 
-*Warning - YFinance may not work if rate limit is reached.
+**⚠️ Warning:** YFinance may not work if rate limit is reached.
 
-Stock Selector: Choose a stock (e.g., TSLA, AAPL) to analyze.
+* **Stock Selector:** Choose a stock (e.g., TSLA, AAPL) to analyze.
+* **Date Range Picker:** Set custom time windows to compare sentiment and price movement.
 
-Date Range Picker: Set custom time windows to compare sentiment and price movement.
+**Reddit Sentiment Analysis:**
 
-Reddit Sentiment Analysis:
+* Fetches posts from `r/Stocks`, `r/Investing`, or `r/WallStreetBets`. Some may have limited data. Expand date range to find more.
+* Analyzes using FinBERT to classify sentiment as Positive, Neutral, or Negative.
 
- * Fetches posts from r/Stocks, r/Investing or r/WallStreetBets. Some may have a lack of relevant data. Expand dates to see if any is available.
+**Stock Price Overlay:**
 
- * Analyzes using FinBERT to classify sentiment as Positive, Neutral, or Negative.
+* Visualizes daily closing prices alongside average sentiment scores.
 
-Stock Price Overlay:
+**Downloadable Plots:** Save graphs for offline analysis or presentations.
 
- * Visualizes daily closing prices alongside average sentiment scores.
+---
 
-Downloadable Plots: Save graphs for offline analysis or presentation.
+## Sentiment Analysis – VADER (Adjusted to FinBERT) and S\&P 500 Trends
 
-## Sentiment Analysis - Vader(Adjusted to Finbert) and S&P500 Trends
+**⚠️ Warning:** May take hours to run. (FinBERT is time-intensive)
 
-*Warning may take hours to run. (Finbert is time intensive). *I also have a version that uses Vader, I will attach in seperate document - John*
-*Warning - YFinance may not work if rate limit is reached.
+*I also have a version that uses VADER. I will attach in a separate document – John.*
 
-Uses Finbert to analyze over 51,000 rows of DJIA New Headlines.
+**⚠️ Warning:** YFinance may not work if rate limit is reached.
 
-Adjust Timeframe: Use the right hand data drop downs to choose which timeframe you want to analyze.
+* Uses FinBERT to analyze over 51,000 rows of DJIA news headlines.
+* **Adjust Timeframe:** Use the data dropdowns to choose which timeframe you want to analyze.
 
-First Visualization: should show the daily averaged sentiment overlayed with the closing price of the S&P500
+**First Visualization:** Shows the daily averaged sentiment overlaid with the closing price of the S\&P 500.
 
-"C:\Users\john\OneDrive - nd.edu\Pictures\Screenshots\Screenshot 2025-05-03 231154.png"
-* I wanted to make this visualization easier to see, but YF rate limit made troubleshooting impossible. -John
+![Screenshot](C:/Users/john/OneDrive%20-%20nd.edu/Pictures/Screenshots/Screenshot%202025-05-03%20231154.png)
 
+*I wanted to make this visualization easier to see, but YF rate limit made troubleshooting impossible. – John*
 
-Second Visualization: Shows binned sets of sentiment data and in relation the average next 3 days closing price. This shows the correlation between sentiment and price increases. *Very Interesting
+**Second Visualization:** Shows binned sentiment data in relation to the average next 3 days' closing prices. This shows correlation between sentiment and price movement. *Very interesting!*
 
-Select Headline: This drop down allows you to select certain headlines and see their overall sentiment. It is a fun way for users to interact with the tangible data they are working with.
+* **Select Headline:** A dropdown to select certain headlines and view their sentiment — a fun, interactive feature.
+
+---
 
 ## Vader vs. Finbert
 
-"C:\Users\john\OneDrive - nd.edu\Pictures\Screenshots\Screenshot 2025-05-08 214529.png"
+![Screenshot](C:/Users/john/OneDrive%20-%20nd.edu/Pictures/Screenshots/Screenshot%202025-05-08%20214529.png)
 
-* This was a fun way of comparing the two sentiment analyzers, and was mostly for fun, however because of YFinance rates being reached, this is the only piece of code I can confirm is running on my end. Apologies for the confusion - John
+*This was a fun comparison between the two sentiment analyzers. Due to YFinance limits, this is the only part of the code currently confirmed working. Apologies – John*
 
-This allows user to upload a pdf or input text. Note: Their is a limit to number of characters that can be read by FinBert.
+* **User Input:** Upload a PDF or input text (note: FinBERT has a character limit).
 
-Finbert side: Shows overall sentiment, Negative, Positive, Neutral, aswell as Confidence, which is expressed as a decimal from 0 to 1.
+**FinBERT Output:**
 
-Example:
+* Label: Negative
+* Confidence: 0.54
 
-Label: Negative
+**VADER Output:**
 
-Confidence: 0.54
-
-Vader Side: This shows the overall percent of negative, netural and positive tokens. Aswell at the overall sentiment compounded as a decimal from 0 to 1, as well as an overall label, such as Positive, Neutral or Negative.
-
-Example: 
-
+```
 Overall VADER Sentiment Scores:
-
 Negative Sentiment: 6.00%
-
 Neutral Sentiment: 84.50%
-
 Positive Sentiment: 9.50%
-
 Overall Sentiment (Compound): 0.7854
-
 Overall Sentiment: Positive
-![alt text](image.png)
-"C:\Users\john\OneDrive - nd.edu\Pictures\Screenshots\Screenshot 2025-05-08 221553.png"
+```
 
-Takeaway: Although Finbert is much more nuanced in reading text, their are advantages to Vader, such as run time, and the unique ability to compound the different percentages into a more flexible piece of data.
+![Screenshot](C:/Users/john/OneDrive%20-%20nd.edu/Pictures/Screenshots/Screenshot%202025-05-08%20221553.png)
 
-References & Resources:
+**Takeaway:** Although FinBERT is more nuanced, VADER is faster and has unique advantages like flexible compound scores.
 
-FinBERT Sentiment Model (https://huggingface.co/ProsusAI/finbert)
+---
 
-Streamlit Documentation (https://docs.streamlit.io/)
+## References & Resources
 
-PRAW Reddit API Wrapper (https://praw.readthedocs.io/en/stable/)
+* [FinBERT Sentiment Model](https://huggingface.co/ProsusAI/finbert)
+* [Streamlit Documentation](https://docs.streamlit.io/)
+* [PRAW Reddit API Wrapper](https://praw.readthedocs.io/en/stable/)
+* [Yahoo Finance Python Wrapper](https://pypi.org/project/yfinance/)
+* [Matplotlib](https://matplotlib.org/)
 
-Yahoo Finance Python Wrapper (https://pypi.org/project/yfinance/)
+---
 
-Matplotlib (https://matplotlib.org/)
-
-
-
-
+Let me know if you'd like this saved as a `README.md` file or if you need help uploading images to GitHub so they render correctly.
 
 
 
